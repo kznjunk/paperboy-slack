@@ -23,12 +23,12 @@ module.exports = function paperboySlack(token) {
             ]
         }
 
-        if (options && options.details) {
+        if (options && options.code) {
             slackData.blocks.push({
                 'type': 'section',
                 'text': {
                     'type': 'mrkdwn',
-                    'text': `\`\`\`${options.details}\`\`\``
+                    'text': `\`\`\`${options.code}\`\`\``
                 }
             })
         }
