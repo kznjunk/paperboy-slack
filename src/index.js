@@ -33,6 +33,10 @@ module.exports = function paperboySlack(token) {
             })
         }
 
-        return await web.chat.postMessage(slackData)
+        try {
+            return await web.chat.postMessage(slackData)
+        } catch (e) {
+            return e
+        }
     }
 }
