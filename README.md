@@ -34,3 +34,7 @@ const options = {
 const res = await sendSlack(channel, message, options)
 // res: { ok: true, ... }
 ```
+
+## Note
+
+The Slack token is available on the settings OAuth & Permissions page: https://api.slack.com/apps/{{appId}}/oauth?
