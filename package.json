@@ -1,6 +1,6 @@
 {
   "name": "@kznjunk/paperboy-slack",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Send Slack messages a bit more quicker",
   "main": "src/index.js",
   "directories": {
