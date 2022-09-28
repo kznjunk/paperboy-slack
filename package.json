@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/kznjunk/paperboy-slack/issues"
   },
-  "homepage": "https://github.com/kznjunk/paperboy-slack#readme"
+  "homepage": "https://github.com/kznjunk/paperboy-slack#readme",
+  "dependencies": {
+    "@slack/web-api": "^6.7.2"
+  }
 }
